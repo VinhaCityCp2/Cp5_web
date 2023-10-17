@@ -42,7 +42,7 @@ export default function EditarProduto() {
   return (
     <section className='editar_geral'>
       <div className='titulo_editar'>
-        <h1 >EDITAR PRODUTOS</h1>
+        <h1>EDITAR PRODUTOS</h1>
       </div>
       <div>
         <form onSubmit={handleSubmit}>
