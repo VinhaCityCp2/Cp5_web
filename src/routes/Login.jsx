@@ -38,14 +38,11 @@ export default function Login (){
         return (
 
             <section>
-              <div className="login_geral">
-                
-                
+              <div className="login_geral">               
                 
                 {getUser && getSenha ? (
                     <Pedido />
-                    
-                    
+                              
                 ) : (
         
                   <form onSubmit={handleSubmit}>
@@ -65,8 +62,7 @@ export default function Login (){
           
                     <input className="confirmacao" type="submit" value="Login" />
           
-                  </form>
-              
+                  </form>         
                 )}
               </div>
             </section>

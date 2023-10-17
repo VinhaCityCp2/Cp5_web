@@ -54,10 +54,10 @@ export default function InserirPedido (){
                                 Quantidade do Pedido
                             </label>
 
-                            <input type="text" name="desc"
+                            <input type="text" name="quantidade"
                             id="idDesc"
 
-                            value={pedido.desc}
+                            value={pedido.quantidade}
                             onChange={handleChange}
                             />
                         </p>

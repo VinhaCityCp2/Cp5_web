@@ -12,7 +12,6 @@ import EditarProduto from './routes/EditarProduto.jsx';
 import Pedido from './routes/Pedido.jsx';
 import EditarPedido from './routes/EditarPedido.jsx';
 import ExcluirPedido from './routes/ExcluirPedido.jsx';
-import InserirPedido from './routes/InserirPedido.jsx';
 
 
   const router = createBrowserRouter([

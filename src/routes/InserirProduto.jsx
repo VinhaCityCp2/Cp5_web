@@ -5,7 +5,6 @@ import './InserirProduto.css';
 
 export default function InserirProduto (){
 
-    
         const navigate = useNavigate();
 
         let novoId= ListaProdutos[ListaProdutos.length - 1].id + 1;
